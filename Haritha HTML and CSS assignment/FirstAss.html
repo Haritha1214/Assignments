@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="FirstAss.css">
+    <title> Survey Form</title>
+</head>
+<body >
+    <h1 style="text-align: center;">Survey Form </h1>
+    
+    <form class="divison" >
+    
+    <p > let us know how we can improve freecodecamp 
+        </p>
+        
+                <label for="name">  Name:</label> 
+                <input id="name" type="text" name="name" placeholder="Enter your Name">
+
+               <label for="email"> Email: </label> 
+                <input id="email" type="email" name="Email" placeholder="Enter your Email">
+
+               <label for="age"> Age: </label>  
+                <input id="age" type="number" name="Age" placeholder="Enter your Age"> 
+            
+
+            
+            <label id="select" for="role">Which option best describes your current role?</label>  
+                    <select id="role" name="role" >
+                    <option value="Student">Student</option>
+                    <option value="Employer">Employer</option>
+                    <option value="Freelancer">Freelancer</option>
+                </select>
+            
+
+              <label id="select">
+                How likely is that you would recommend freecodecamp to a friend? </br>
+              </label>
+                <div id="recommended">       
+                <label for="define"> <input id="define" type="radio" name="recommend" value="Definetly">Definetly </label> 
+                <label for="may">  <input id="may" type="radio" name="recommend" value="Maybe"> Maybe </label> 
+                <label for="notsure"> <input id="notsure" type="radio" name="recommend" value="Not Sure"> Not Sure </label>
+              </div> 
+
+             <label id="select" for="mostliked">What do you like most in FCC ? </label>
+                    <select id="mostliked" name="mostliked" >
+                   <option id="perk" value="Perk">Perks</option>
+                   <option id="food" value="Food">Food</option>
+                   <option id="travel" value="Travel">Travel</option>
+               </select>
+            
+
+                
+               <label id="select">Things that should be improved in future</br>(Check all that apply) 
+                </label> 
+                <div id="check">
+                <label for="front"><input id="front" type="checkbox" name="infuture" value="Front-end Projects">Front-end Projects </label>
+                <label for="back"> <input id="back" type="checkbox" name="infuture" value="Back-end Projects"> Back-end Projects </label> 
+                <label for="data"> <input id="data" type="checkbox" name="infuture" value="Data visualization"> Data visualization   </label>              
+                </div> 
+        
+            <input id="btn" type="submit" name="submit" value="Submit"> 
+        </form>
+
+
+</body>
